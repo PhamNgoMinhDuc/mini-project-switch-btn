@@ -1,0 +1,48 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="./script.js"></script>
+	</head>
+	<body>
+		<div class="content" id="">
+			<div class="content__text">Danh sách sản phẩm</div>
+			<div class="content__btn">
+				<button class="btn active" onclick="ChangeBtn('trend',this)">Phổ biến</button>
+				<button class="btn" onclick="ChangeBtn('new', this)">Mới nhất</button>
+				<button class="btn" onclick="ChangeBtn('best-sell', this)">Bán chạy</button>
+			</div>
+			<div class="content__product">
+				<ul id="trend" class="content__product-list">
+					<li class="content__product-item"><img src="./img/images.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/2.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/3.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/4.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/5.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/6.jpg" alt="" /></li>
+				</ul>
+
+				<ul id="new" class="content__product-list">
+					<li class="content__product-item"><img src="./img/3.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/4.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/images.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/2.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/5.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/6.jpg" alt="" /></li>
+				</ul>
+
+				<ul id="best-sell" class="content__product-list">
+					<li class="content__product-item"><img src="./img/6.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/5.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/4.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/3.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/2.jpg" alt="" /></li>
+					<li class="content__product-item"><img src="./img/images.jpg" alt="" /></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
